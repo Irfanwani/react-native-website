@@ -11,7 +11,10 @@ Upgrading your Expo project to a new version of React Native requires updating t
 
 ## React Native projects
 
-Because typical React Native projects are essentially made up of an Android project, an iOS project, and a JavaScript project, upgrading can be rather tricky. There's currently two ways for upgrading your React Native project: by using [React Native CLI](https://github.com/react-native-community/cli) or manually with [Upgrade Helper](https://react-native-community.github.io/upgrade-helper/).
+Because typical React Native projects are essentially made up of an Android project, an iOS project, and a JavaScript project, upgrading can be rather tricky. There are currently two ways for upgrading your React Native project;
+1) By using [React Native CLI](https://github.com/react-native-community/cli)
+OR 
+2) Manually with [Upgrade Helper](https://react-native-community.github.io/upgrade-helper/).
 
 ### React Native CLI
 
@@ -19,7 +22,7 @@ The [React Native CLI](https://github.com/react-native-community/cli) comes with
 
 #### 1. Run the `upgrade` command
 
-> The `upgrade` command works on top of Git by using `git apply` with 3-way merge, therefore it's required to use Git in order for this to work, if you don't use Git but still want to use this solution then you can check out how to do it in the [Troubleshooting](#i-want-to-upgrade-with-react-native-cli-but-i-dont-use-git) section.
+> The `upgrade` command works on top of Git by using `git apply` with 3-way merge, therefore it's required to use Git in order for this to work, if you don't use Git but still want to use this solution, then you can check out how to do it in the [Troubleshooting](#i-want-to-upgrade-with-react-native-cli-but-i-dont-use-git) section.
 
 Run the following command to start the process of upgrading to the latest version:
 
